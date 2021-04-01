@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayoutParent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:ignore="UselessParent">
+
+
+    <!-- this is the collapsed layout -->
+    <RelativeLayout
+        android:id="@+id/layoutCollapsed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/collapsed_iv"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:src="@drawable/add" />
+
+        <ImageView
+            android:id="@+id/buttonClose"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:src="@android:drawable/ic_delete" />
+    </RelativeLayout>
+
+    <!-- this is the expanded layout -->
+    <LinearLayout
+        android:id="@+id/layoutExpanded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#20a0c3d7"
+        android:orientation="horizontal"
+        android:padding="@dimen/_8sdp"
+        android:visibility="gone"
+
+        >
+
+        <ImageView
+            android:id="@+id/buttonSimplifiedCodingExpanded"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:src="@drawable/add"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:id="@+id/buttonSimplifiedCoding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/notesRecyclerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dot_on_page_not_active">dot_on_page_not_active</string-array>
+    <string-array name="dot_on_page_active">dot_on_page_active</string-array>
+</resources>

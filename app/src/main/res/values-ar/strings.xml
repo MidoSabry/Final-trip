@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">TripReminderApp</string>
+    <string name="account">لديك حساب؟</string>
+    <string name="E_mail">البريد الالكترونى</string>
+    <string name="Password">كلمه السر</string>
+    <string name="LOGIN">تسجيل دخول</string>
+    <string name="OR">او</string>
+    <string name="newAccount">اشترك الان؟</string>
+    <string name="aNewAcc">انشاء حساب جديد</string>
+    <string name="signUp">الاشترك</string>
+    <string name="facebook_app_id">499793114363397</string>
+    <string name="fb_login_protocol_scheme">fb499793114363397</string>
+    <string name="app">Trip Reminder App</string>
+    <string name="s1">Plan your Trips</string>
+    <string name="s2"> منبه الرحله</string>
+    <string name="s3">Easy Navigation</string>
+    <string name="next">التالى</string>
+    <string-array name="types">
+        <item>اتجاه واحد</item>
+        <item> ذهابا و عوده</item>
+    </string-array>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">الاعدادات</string>
+
+    <string name="menu_home">الصفحه الرئسيه</string>
+    <string name="menu_gallery">صاله العرض</string>
+    <string name="menu_slideshow">العرض</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">الصفحه الرئسيه</string>
+    <string name="title_dashboard">اللوحه</string>
+    <string name="title_notifications">الاشعارات</string>
+    <string name="api_places_key">AIzaSyCVOvMSNN18_AJKQjfKfoWKxsYNF5GNxK0</string>
+    <string name="UserName">اسم المستخدم</string>
+    <string name="e_mail">عنوان البريد الالكترونى</string>
+    <string name="Fb">حساب الفيسبوك</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="Done">تم</string>
+    <string name="Profile">الملف الشخصى</string>
+    <string name="Add">اضافه</string>
+    <string name="Start"> نقطه البدايه</string>
+    <string name="End">نقطه النهايه</string>
+    <string name="Trip">اسم الرحله</string>
+    <string name="Date">التاريخ</string>
+    <string name="Time">الوقت</string>
+    <string name="Edit">تعديل</string>
+    <string name="Notes">ملاحظات</string>
+    <string name="delete_trip">هل تريد الغاء هذه الرحله؟</string>
+    <string name="ok">نعم</string>
+    <string name="go">هل تريد التحرك الان؟</string>
+    <string name="to">الى:</string>
+    <string name="From">من:</string>
+    <string name="save">حفظ</string>
+    <string name="Title">العنوان</string>
+    <string name="Description">الشرح</string>
+</resources>
